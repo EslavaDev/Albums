@@ -1,0 +1,247 @@
+body{
+	font-family: Helvetica, Arial;
+}
+
+.clearfix{
+	float:none;
+	clear: both;
+	text-decoration: none;
+	list-style: none;
+}
+
+#content{
+	width: 80%;
+	min-height: 500px;
+	margin: 0px auto;
+	margin-top: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px #ddd;
+	background: #eee;
+}
+
+header{
+	padding: 15px;
+	background: #E74A30;
+}
+
+header .title-subtitle{
+	float: left;
+	border-bottom: 1px solid white;
+	border-top:1px solid white;
+	color: white;
+	padding: 20px;
+	padding-left: 65px;
+	margin-left: -65px;
+}
+
+header h1, 
+header p{
+	margin: 0px;
+	margin-left: 15px;
+}
+
+header h1 a{
+	text-decoration: none;
+	color: white;
+}
+
+header h1 a:hover{
+	text-decoration: underline;
+}
+
+header p{
+	color:#ddd;
+}
+
+header #logo{
+	display: block;
+	float: left;
+	margin-top: 10px;
+    width: 65px;
+}
+
+.btn-add-album{
+	display: block;
+	padding: 10px;
+	float: right;
+	margin-right: 30px;
+	margin-top: 5px;
+	background: #eee;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 5px gray;
+	color: #666;
+	text-decoration: none;
+	transition: all 300ms;
+}
+
+.btn-add-album:hover{
+	background: white;
+	color: #444;
+}
+
+.main{
+	padding: 20px;
+}
+
+#album-list{
+	padding: 0px;
+	margin: 0px;
+}
+
+.album-item{
+	list-style: none;
+	border: 1px solid #ddd;
+	float: left;
+	width: 95%;
+	height: 120px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px; 
+	color: gray;
+	background: white;
+	margin: 10px;
+}
+
+.album-item .content-data{
+	float: left;
+	margin-left: 20px;
+}
+
+.album-item h4{
+	color: #444;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 5px;
+}
+
+.album-item .url{
+	margin: 0px;
+	margin-top: 2px;
+	padding: 0px;
+	height: 45px;
+	overflow: hidden;
+}
+
+.btn{
+	font-size: 13px;
+	border: 1px solid #ccc;
+	border-color: #1976D2;
+	border-radius: 4px;
+	box-shadow: 0px 0px 5px #ddd;
+	padding: 5px;
+	text-decoration: none;
+	color:white;
+	background: #0074d9;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+.btn-editar{
+	background: #0A0;
+	border-color: #59a600;
+}
+
+.btn-eliminar{
+	background: #E23237;
+	border-color: #F54747;
+}
+
+.btn-default{
+	background: #eaa615;
+	border-color: #cc941c;
+	color: white;	
+	margin-left: 0px;
+}
+
+.album-box{
+	margin-left: 25px;
+	background: white;
+
+	border: 1px solid #ddd;
+	width: 70%;
+	min-height: 150px;
+	margin-top:20px;
+	padding: 20px;
+}
+
+.loading{
+	margin:25px;
+}
+
+footer{
+	width: 80%;
+	margin: 0px auto;
+	margin-top: 20px;
+	color: gray;
+}
+
+.seguro{
+    background: white none repeat scroll 0 0;
+    margin-top: -41px;
+    position: absolute;
+	width: 333px;
+	padding-top: 10px;
+	height: 45px;
+    margin-left: -5px;
+    text-align: left;
+}
+.seguro1{
+    background: white none repeat scroll 0 0;
+    margin-top: -31px;
+    position: absolute;
+	width: 333px;
+	padding-top: 10px;
+	height: 30px;
+    margin-left: -5px;
+    text-align: left;
+}
+#picture-list .image-item{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	height: 200px;
+	width: 240px;
+	list-style: none;
+	border: 1px solid #ccc
+}
+
+#picture-list .image-item .picture{
+	height: 150px;
+	overflow: hidden;
+}
+
+#picture-list .image-item img{
+	width: 100%;
+}
+
+#picture-list .image-item .title{
+	width: 100%;
+	height: 50px;
+	display: block;
+	background: #eee;
+	text-align: center;
+	color: #444;
+	line-height: 50px;
+}
+
+#picture-list .image-item .title a{
+	text-decoration: none;
+	color: #444;
+}
+
+.image-box {
+	margin-left: 25px;
+	background: white;
+
+	border: 1px solid #ddd;
+	width: 70%;
+	min-height: 150px;
+	margin-top:20px;
+	padding: 20px;
+}
+
+.image-box .imagen{
+	width: 98%;
+}

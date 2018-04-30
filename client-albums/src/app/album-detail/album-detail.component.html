@@ -1,0 +1,25 @@
+<div class="loading" *ngIf="loading">
+  <img src="../../assets/images/loader.gif" />
+</div>
+
+<div *ngIf="album" class="album-box">
+  <div class="data-rest">
+    <h1>Album: {{album.title}}</h1>
+    <p class="description">{{album.description}}</p>
+    <a [routerLink]="[ '/addImage', album._id ]" class="btn btn-default">Añadir Fotos</a>
+    <div id="gallery-images" *ngIf="images">
+      <ul id="picture-list">
+        <li *ngFor="let image of images" class="image-item">
+          <div class="picture">
+            <img src="{{api_url + image.picture}}" *ngIf="image.picture && image.picture !== 'null'"/>
+          </div>
+          <div class="title">
+           <a [routerLink]="[ '/image', image._id ]">{{image.title}}</a>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
